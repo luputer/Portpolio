@@ -6,31 +6,24 @@
   let isVisible = false;
 
   const experiences = [
-    // {
-    //   id: 1,
-    //   company: "Open Journal Theme",
-    //   position: "Full-Stack Dev",
-    //   location: "San Francisco, CA",
-    //   period: "1 agust 2025 - Present",
-    //   type: "Intern",
-    //   description:
-    //     "Leading development of enterprise web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting scalable solutions for high-traffic applications.",
-    //   achievements: [
-    //     "Increased application performance by 40% through optimization",
-    //     "Led a team of 5 developers on major product redesign",
-    //     "Implemented CI/CD pipeline reducing deployment time by 60%",
-    //     "Architected microservices handling 1M+ daily requests",
-    //   ],
-    //   technologies: [
-    //     "laravel",
-    //     "svelte",
-    //     "TypeScript",
-    //     "filament",
-    //     "Docker",
-    //     "PostgreSQL",
-    //   ],
-    //   companyUrl: "https://techcorp.example.com",
-    // },
+    {
+      id: 1,
+      company: "HAFECT",
+      position: "Web developer",
+      location: "Barito kuala, Banjarmasin IN",
+      period: "14 juli 2025 - Present",
+      type: "Intern",
+      description:
+        "Leading development of enterprise web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting scalable solutions for high-traffic applications.",
+      achievements: [
+        "Increased application performance by 40% through optimization",
+        "Led a team of 5 developers on major product redesign",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Architected microservices handling 1M+ daily requests",
+      ],
+      technologies: ["laravel", "livewire", "mysql", "tailwindCss", "Docker"],
+      companyUrl: "https://hafecs.id/",
+    },
     {
       id: 2,
       company: "Dbs Coding Camp",
