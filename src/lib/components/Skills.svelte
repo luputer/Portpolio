@@ -1,3 +1,4 @@
+<!-- @format -->
 <script lang="ts">
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
@@ -141,7 +142,7 @@
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const section = document.getElementById("skills");
@@ -150,7 +151,6 @@
     return () => observer.disconnect();
   });
 </script>
-
 <section id="skills" class="py-20 bg-gray-50 dark:bg-gray-800">
   <div class="container mx-auto px-4">
     {#if isVisible}
@@ -258,7 +258,7 @@
                 <div
                   class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2"
                 >
-                  15+
+                  10+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400">
                   Technologies Mastered
@@ -268,7 +268,7 @@
                 <div
                   class="text-3xl font-bold text-secondary-600 dark:text-secondary-400 mb-2"
                 >
-                  50+
+                  30+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400">
                   Courses Completed
@@ -278,7 +278,7 @@
                 <div
                   class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2"
                 >
-                  5+
+                  2+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400">
                   Years Experience

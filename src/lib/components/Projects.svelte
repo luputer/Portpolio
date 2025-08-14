@@ -1,3 +1,4 @@
+<!-- @format -->
 <script lang="ts">
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
@@ -9,6 +10,31 @@
   const projects = [
     {
       id: 1,
+      title: "TLC",
+      shortDescription: "Training and Learning Center",
+      description:
+        "A web application to detect diseases on tomato leaves using machine learning technology. This application helps farmers and users to identify diseases on tomato plants quickly and accurately.",
+      image:  "project/TLC.png",
+      gallery: [
+        "project/TLC.png",
+        // "project/tomatech3.png",
+        // "project/tomatech4.png",
+        // "project/tomatech4.png",
+      ],
+      technologies: [
+        "React",
+        "Python",
+        "TensorFlow",
+        "Node-js",
+        "Flask",
+        "Tailwind CSS",
+      ],
+      liveUrl: "https://toma-tech.vercel.app/",
+      githubUrl: "https://github.com/luputer/TomaTechs",
+      category: "Web Development",
+    },
+    {
+      id: 2,
       title: "Tomatech",
       shortDescription: "Tomato Leaf Disease Detection Application",
       description:
@@ -33,7 +59,7 @@
       category: "Web Development",
     },
     {
-      id: 2,
+      id: 3,
       title: "Simpadu",
       shortDescription: "menagament employee apps and attendance",
       description:
@@ -56,7 +82,7 @@
       category: "Mobile",
     },
     {
-      id: 3,
+      id: 4,
       title: "Portfolio Website",
       shortDescription: "Responsive portfolio with modern animations",
       description:
@@ -74,7 +100,7 @@
       category: "Web Development",
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather Dashboard",
       shortDescription: "Real-time weather tracking application",
       description:
@@ -92,7 +118,7 @@
       category: "Web App",
     },
     {
-      id: 5,
+      id: 6,
       title: "Social Media App",
       shortDescription: "Modern social networking platform",
       description:
@@ -108,30 +134,6 @@
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/johndoe/social",
       category: "Web Development",
-    },
-    {
-      id: 6,
-      title: "Fitness Tracker",
-      shortDescription: "Mobile-first fitness and health app",
-      description:
-        "A comprehensive fitness tracking application with workout planning, progress tracking, nutrition logging, and social features. Includes integration with wearable devices and health APIs.",
-      image:
-        "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
-      gallery: [
-        "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/4164761/pexels-photo-4164761.jpeg?auto=compress&cs=tinysrgb&w=800",
-      ],
-      technologies: [
-        "React Native",
-        "Node.js",
-        "MongoDB",
-        "HealthKit",
-        "Firebase",
-      ],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/johndoe/fitness",
-      category: "Mobile App",
     },
   ];
 
@@ -154,7 +156,7 @@
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const section = document.getElementById("projects");

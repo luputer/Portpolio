@@ -276,16 +276,16 @@
         </div>
 
         <!-- Summary Stats -->
-        <div in:fly={{ y: 50, duration: 800, delay: 1200 }} class="mt-16">
+        <!-- <div in:fly={{ y: 50, duration: 800, delay: 1200 }} class="mt-16">
           <div
             class="bg-gradient-to-r from-primary-50 to-secondary-50 dark:from-primary-900/20 dark:to-secondary-900/20 rounded-2xl p-8"
           >
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
               <div>
                 <div
                   class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2"
                 >
-                  5+
+                  1+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400 text-sm">
                   Years Experience
@@ -295,7 +295,7 @@
                 <div
                   class="text-3xl font-bold text-secondary-600 dark:text-secondary-400 mb-2"
                 >
-                  60+
+                  5+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400 text-sm">
                   Projects Completed
@@ -303,19 +303,9 @@
               </div>
               <div>
                 <div
-                  class="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-2"
-                >
-                  4
-                </div>
-                <div class="text-gray-600 dark:text-gray-400 text-sm">
-                  Companies
-                </div>
-              </div>
-              <div>
-                <div
                   class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2"
                 >
-                  15+
+                  10+
                 </div>
                 <div class="text-gray-600 dark:text-gray-400 text-sm">
                   Technologies
@@ -323,7 +313,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     {/if}
   </div>

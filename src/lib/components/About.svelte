@@ -7,7 +7,7 @@
   let isVisible = false;
 
   const stats = [
-    { label: "Years Experience", value: "2+", icon: Award },
+    { label: "Years Experience", value: "1+", icon: Award },
     { label: "Projects Completed", value: "5+", icon: Target },
     { label: "Happy Clients", value: "2+", icon: Heart },
     { label: "Technologies", value: "10+", icon: User },
