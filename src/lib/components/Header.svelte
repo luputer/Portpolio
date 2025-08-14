@@ -12,7 +12,7 @@
     { id: 'experience', label: 'Experience' },
     { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
-    { id: 'certificates', label: 'Certificates' },
+    // { id: 'certificates', label: 'Certificates' },
     { id: 'cv', label: 'CV' },
     { id: 'contact', label: 'Contact' }
   ];

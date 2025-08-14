@@ -1,3 +1,4 @@
+<!-- @format -->
 <script lang="ts">
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
@@ -10,11 +11,11 @@
       id: 1,
       company: "HAFECT",
       position: "Web developer",
-      location: "Barito kuala, Banjarmasin IN",
+      location: "Barito kuala, Banjarmasin",
       period: "14 juli 2025 - Present",
       type: "Intern",
       description:
-        "Leading development of enterprise web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting scalable solutions for high-traffic applications.",
+        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
       achievements: [
         "Increased application performance by 40% through optimization",
         "Led a team of 5 developers on major product redesign",
@@ -30,7 +31,7 @@
       position: "Full-Stack Cohort",
       location: "Remote",
       period: "feb 2025 - jun 2025",
-      type: "Corse",
+      type: "Corse",  
       description:
         "Developed responsive web applications and mobile-first interfaces. Collaborated closely with design team to implement pixel-perfect UI components and smooth user experiences.",
       achievements: [
@@ -77,33 +78,8 @@
     },
     {
       id: 4,
-      company: "Freelance",
-      position: "Full-Stack Developer",
-      location: "Various",
-      period: "2018 - 2019",
-      type: "Freelance",
-      description:
-        "Provided web development services to small and medium businesses. Specialized in e-commerce solutions, business websites, and custom web applications.",
-      achievements: [
-        "Completed 20+ freelance projects successfully",
-        "Built e-commerce platforms generating $500K+ in sales",
-        "Maintained 5-star rating across all platforms",
-        "Established long-term partnerships with 8 clients",
-      ],
-      technologies: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Python",
-        "Django",
-        "Shopify",
-      ],
-      companyUrl: null,
-    },
-    {
-      id: 5,
       company: "Kominpo VSGA",
-      position: "Full-Stack Developer",
+      position: "Junior Mobile Developer",
       location: "Various",
       period: "2018 - 2019",
       type: "Freelance",
@@ -136,7 +112,7 @@
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const section = document.getElementById("experience");
@@ -145,7 +121,6 @@
     return () => observer.disconnect();
   });
 </script>
-
 <section id="experience" class="py-20 bg-white dark:bg-gray-900">
   <div class="container mx-auto px-4">
     {#if isVisible}

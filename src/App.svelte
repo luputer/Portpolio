@@ -18,7 +18,7 @@
   <Experience />
   <Projects />
   <Skills />
-  <Certificates />
+  <!-- <Certificates /> -->
   <CV />
   <Contact />
   <Footer />

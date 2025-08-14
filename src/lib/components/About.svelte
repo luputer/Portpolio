@@ -1,3 +1,4 @@
+<!-- @format -->
 <script lang="ts">
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
@@ -21,7 +22,7 @@
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const section = document.getElementById("about");
@@ -30,7 +31,6 @@
     return () => observer.disconnect();
   });
 </script>
-
 <section id="about" class="py-20 bg-white dark:bg-gray-900">
   <div class="container mx-auto px-4">
     <div class="max-w-6xl mx-auto">
@@ -64,10 +64,10 @@
                 </h3>
 
                 <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
-                  I'm a passionate fullstack developer and mobile dev with over
-                  2 years of experience creating scalable web applications and
-                  mobile solutions. I love turning complex problems into simple,
-                  beautiful and intuitive digital experiences.
+                  I'm a passionate fullstack Web developer and mobile dev with
+                  over 1 years of experience creating scalable web applications
+                  and mobile solutions. I love turning complex problems into
+                  simple, beautiful and intuitive digital experiences.
                 </p>
 
                 <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
@@ -102,12 +102,6 @@
                     >
                       <div class="w-2 h-2 bg-primary-500 rounded-full mr-3" />
                       Mobile App Development (React Native, Flutter, java)
-                    </li>
-                    <li
-                      class="flex items-center text-gray-600 dark:text-gray-400"
-                    >
-                      <div class="w-2 h-2 bg-primary-500 rounded-full mr-3" />
-                      Database Design & API Development
                     </li>
                   </ul>
                 </div>

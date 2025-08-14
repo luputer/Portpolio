@@ -36,7 +36,7 @@
     {
       icon: MapPin,
       label: "Location",
-      value: "Kalimantan, IN",
+      value: "Kalimantan, Indonesia",
       href: "https://maps.google.com/?q=San+Francisco,CA",
     },
   ];
